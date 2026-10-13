@@ -1,0 +1,2 @@
+# 开发依赖：只在本地跑测试用，生产部署请装 requirements.txt
+pytest>=8.0

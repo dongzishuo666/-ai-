@@ -461,4 +461,3 @@ CREATE TABLE IF NOT EXISTS ai_score_records (
 
 CREATE INDEX IF NOT EXISTS idx_aisr_task ON ai_score_records(feature, task_id);
 CREATE INDEX IF NOT EXISTS idx_aisr_ai   ON ai_score_records(ai_id);
-
