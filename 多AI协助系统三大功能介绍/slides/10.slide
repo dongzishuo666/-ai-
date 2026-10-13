@@ -1,0 +1,53 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '20px 64px' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 100 }}>
+        <Box style={{ width: 4, height: 40, background: '#0B2545' }} />
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0B2545' }}>实时打分与末位临时禁言</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 44, height: 520, marginTop: 12, alignItems: 'center' }}>
+        <Box style={{ width: 400, flexDirection: 'column' }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+                <Text style={{ fontSize: 150, fontWeight: 'bold', color: '#00C9A7', lineHeight: 1 }}>2</Text>
+                <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#0B2545', paddingBottom: 12 }}>轮</Text>
+            </Box>
+            <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#0B2545', marginTop: 14, lineHeight: 1.5 }}>连续排名末位 + 分数低于阈值<br />即触发临时禁言</Text>
+            <Text style={{ fontSize: 16.5, color: '#64748B', marginTop: 12, lineHeight: 1.7 }}>禁止下一轮发言；禁言轮次结束后自动解除，分数重置后重新参与排名。</Text>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 14 }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 76, borderRadius: 10, background: '#F4F7FB', padding: '0 24' }}>
+                <FAIcon name='chart-line' style={{ fill: '#2E7CF6', width: 26, height: 26 }} />
+                <Box style={{ flexDirection: 'column', gap: 4 }}>
+                    <Text style={{ fontSize: 16.5, fontWeight: 'bold', color: '#0B2545' }}>打分维度</Text>
+                    <Text style={{ fontSize: 14, color: '#64748B' }}>发言质量 · 主题相关性 · 贡献度 · 合规性，裁判实时加权评分</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 76, borderRadius: 10, background: '#F4F7FB', padding: '0 24' }}>
+                <FAIcon name='list-ol' style={{ fill: '#2E7CF6', width: 26, height: 26 }} />
+                <Box style={{ flexDirection: 'column', gap: 4 }}>
+                    <Text style={{ fontSize: 16.5, fontWeight: 'bold', color: '#0B2545' }}>计分榜</Text>
+                    <Text style={{ fontSize: 14, color: '#64748B' }}>每轮发言后动态更新，前端实时同步排名变化</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 76, borderRadius: 10, background: '#F4F7FB', padding: '0 24' }}>
+                <FAIcon name='volume-mute' style={{ fill: '#0B2545', width: 26, height: 26 }} />
+                <Box style={{ flexDirection: 'column', gap: 4 }}>
+                    <Text style={{ fontSize: 16.5, fontWeight: 'bold', color: '#0B2545' }}>禁言触发</Text>
+                    <Text style={{ fontSize: 14, color: '#64748B' }}>连续两轮末位且低于阈值，禁止下一轮发言</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 76, borderRadius: 10, background: '#F4F7FB', padding: '0 24' }}>
+                <FAIcon name='undo' style={{ fill: '#00A88C', width: 26, height: 26 }} />
+                <Box style={{ flexDirection: 'column', gap: 4 }}>
+                    <Text style={{ fontSize: 16.5, fontWeight: 'bold', color: '#0B2545' }}>禁言解除</Text>
+                    <Text style={{ fontSize: 14, color: '#64748B' }}>轮次结束自动解除，分数重置后重新参与排名</Text>
+                </Box>
+            </Box>
+            <Box style={{ borderRadius: 10, background: 'rgba(0,201,167,0.10)', padding: '16px 24px', marginTop: 4 }}>
+                <Text style={{ fontSize: 15.5, color: '#0B7A68', lineHeight: 1.6 }}>禁言是调度手段而非惩罚展示：把低贡献模型请出场，让高价值发言占据轮次。</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36, marginTop: 12 }}>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>10 / 14</Text>
+    </Box>
+</Slide>

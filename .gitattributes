@@ -1,0 +1,16 @@
+# 统一换行符：本地 Windows 与服务器 Linux 共用一份 LF，避免整文件 diff 噪音
+* text=auto eol=lf
+
+# 二进制不参与文本转换与 diff
+*.pyd binary
+*.so  binary
+*.db  binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pptx binary
+*.docx binary
+*.xlsx binary
+*.tar.gz binary

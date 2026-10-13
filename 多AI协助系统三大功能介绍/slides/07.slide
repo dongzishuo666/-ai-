@@ -1,0 +1,78 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '20px 64px' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 100 }}>
+        <Box style={{ width: 4, height: 40, background: '#0B2545' }} />
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0B2545' }}>模块一 · 文档智能 Prompt 生成</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 26, height: 520, marginTop: 12 }}>
+        <Box style={{ width: 730, height: 520, borderRadius: 16, background: '#F4F7FB', padding: 20, justifyContent: 'center', alignItems: 'center' }}>
+            <svg width={690} height={470} viewBox='0 0 690 470'>
+                <rect x='0' y='28' width='150' height='210' rx='12' fill='#FFFFFF' stroke='#2E7CF6' strokeWidth='2' />
+                <text x='22' y='62' fontSize='13' fontWeight='bold' fill='#2E7CF6'>STEP 1 · 前置</text>
+                <text x='22' y='94' fontSize='18' fontWeight='bold' fill='#0B2545'>前置解析</text>
+                <line x1='22' y1='112' x2='128' y2='112' stroke='#E2E8F0' strokeWidth='1.5' />
+                <text x='22' y='140' fontSize='13' fill='#64748B'>识别 PDF / Word /</text>
+                <text x='22' y='162' fontSize='13' fill='#64748B'>TXT / PPT 格式</text>
+                <text x='22' y='190' fontSize='13' fill='#64748B'>提取核心内容，</text>
+                <text x='22' y='212' fontSize='13' fill='#64748B'>超长自动截断</text>
+                <line x1='152' y1='133' x2='168' y2='133' stroke='#2E7CF6' strokeWidth='2.5' />
+                <polygon points='166,127 178,133 166,139' fill='#2E7CF6' />
+                <rect x='180' y='28' width='150' height='210' rx='12' fill='#FFFFFF' stroke='#2E7CF6' strokeWidth='2' />
+                <text x='202' y='62' fontSize='13' fontWeight='bold' fill='#2E7CF6'>STEP 2 · 第一棒</text>
+                <text x='202' y='94' fontSize='18' fontWeight='bold' fill='#0B2545'>方案生成</text>
+                <line x1='202' y1='112' x2='308' y2='112' stroke='#E2E8F0' strokeWidth='1.5' />
+                <text x='202' y='140' fontSize='13' fill='#64748B'>官方渠道 AI：</text>
+                <text x='202' y='162' fontSize='13' fill='#64748B'>角色定位 · 任务目标</text>
+                <text x='202' y='190' fontSize='13' fill='#64748B'>输出规范 · 约束</text>
+                <text x='202' y='212' fontSize='13' fill='#64748B'>产出初版 Prompt</text>
+                <line x1='332' y1='133' x2='348' y2='133' stroke='#2E7CF6' strokeWidth='2.5' />
+                <polygon points='346,127 358,133 346,139' fill='#2E7CF6' />
+                <rect x='360' y='28' width='150' height='210' rx='12' fill='#FFFFFF' stroke='#2E7CF6' strokeWidth='2' />
+                <text x='382' y='62' fontSize='13' fontWeight='bold' fill='#2E7CF6'>STEP 3 · 第二棒</text>
+                <text x='382' y='94' fontSize='18' fontWeight='bold' fill='#0B2545'>方案优化</text>
+                <line x1='382' y1='112' x2='488' y2='112' stroke='#E2E8F0' strokeWidth='1.5' />
+                <text x='382' y='140' fontSize='13' fill='#64748B'>中转渠道 AI：</text>
+                <text x='382' y='162' fontSize='13' fill='#64748B'>补约束 · 强指令</text>
+                <text x='382' y='190' fontSize='13' fill='#64748B'>剔冗余 · 提效率</text>
+                <text x='382' y='212' fontSize='13' fill='#64748B'>产出优化版 Prompt</text>
+                <line x1='512' y1='133' x2='528' y2='133' stroke='#2E7CF6' strokeWidth='2.5' />
+                <polygon points='526,127 538,133 526,139' fill='#2E7CF6' />
+                <rect x='540' y='28' width='150' height='210' rx='12' fill='rgba(0,201,167,0.10)' stroke='#00C9A7' strokeWidth='3' />
+                <text x='562' y='62' fontSize='13' fontWeight='bold' fill='#00A88C'>STEP 4 · 第三棒</text>
+                <text x='562' y='94' fontSize='18' fontWeight='bold' fill='#0B2545'>汇总定稿</text>
+                <line x1='562' y1='112' x2='668' y2='112' stroke='rgba(0,201,167,0.4)' strokeWidth='1.5' />
+                <text x='562' y='140' fontSize='13' fill='#0B7A68'>官方渠道 AI 裁决：</text>
+                <text x='562' y='162' fontSize='13' fill='#0B7A68'>是否匹配需求 ·</text>
+                <text x='562' y='184' fontSize='13' fill='#0B7A68'>覆盖核心 · 无歧义</text>
+                <text x='562' y='212' fontSize='13' fill='#0B7A68'>合格即最终输出</text>
+                <line x1='345' y1='244' x2='345' y2='276' stroke='#64748B' strokeWidth='2' strokeDasharray='5 4' />
+                <rect x='60' y='280' width='570' height='86' rx='10' fill='#FFFFFF' stroke='#64748B' strokeWidth='1.5' strokeDasharray='6 4' />
+                <text x='90' y='316' fontSize='15' fontWeight='bold' fill='#0B2545'>异常兜底</text>
+                <text x='90' y='344' fontSize='13.5' fill='#64748B'>任一环节输出为空 → 自动重试 1 次 → 仍失败则降级调用备用 AI，保障输出稳定</text>
+                <text x='0' y='412' fontSize='14' fill='#64748B'>全链路串行调用——单时刻仅占用 1 个 AI 连接，降低并发资源消耗</text>
+                <text x='0' y='440' fontSize='14' fill='#64748B'>中间结果仅在链路中临时传递，完成即释放，不落库持久化</text>
+            </svg>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+            <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0B2545' }}>核心定位</Text>
+            <Text style={{ fontSize: 16, color: '#14202E', lineHeight: 1.7 }}>
+                用户上传文档并描述业务需求，3 个固定 AI 角色串行协作、逐级迭代，最终输出可直接调用的高质量标准化 Prompt——全程隐藏调用过程与中间链路。
+            </Text>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <FAIcon name='eye-slash' style={{ fill: '#2E7CF6', width: 24, height: 24 }} />
+                <Text style={{ fontSize: 15.5, color: '#14202E', lineHeight: 1.5 }}>黑盒工具页：不展示 AI 列表与中间版本</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <FAIcon name='copy' style={{ fill: '#2E7CF6', width: 24, height: 24 }} />
+                <Text style={{ fontSize: 15.5, color: '#14202E', lineHeight: 1.5 }}>一键复制：仅呈现最终结果与生成状态</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <FAIcon name='history' style={{ fill: '#00C9A7', width: 24, height: 24 }} />
+                <Text style={{ fontSize: 15.5, color: '#14202E', lineHeight: 1.5 }}>历史记录：轻量化存储与查看</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36, marginTop: 12 }}>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>07 / 14</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,57 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '20px 64px' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 100 }}>
+        <Box style={{ width: 4, height: 40, background: '#0B2545' }} />
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0B2545' }}>模块三 · AI 三级文章生成</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 26, height: 520, marginTop: 12 }}>
+        <Box style={{ width: 690, height: 520, borderRadius: 16, background: '#F4F7FB', padding: 20, justifyContent: 'center', alignItems: 'center' }}>
+            <svg width={650} height={476} viewBox='0 0 650 476'>
+                <rect x='20' y='24' width='400' height='104' rx='12' fill='#FFFFFF' stroke='#2E7CF6' strokeWidth='2' />
+                <text x='48' y='58' fontSize='13' fontWeight='bold' fill='#2E7CF6'>第一棒 · 官方渠道</text>
+                <text x='48' y='88' fontSize='19' fontWeight='bold' fill='#0B2545'>大纲生成</text>
+                <text x='48' y='112' fontSize='13' fill='#64748B'>建议标题 + 3-5 章节 + 每章 2-3 要点</text>
+                <line x1='220' y1='128' x2='220' y2='152' stroke='#2E7CF6' strokeWidth='2.5' />
+                <polygon points='214,150 226,150 220,160' fill='#2E7CF6' />
+                <rect x='20' y='164' width='400' height='104' rx='12' fill='#FFFFFF' stroke='#2E7CF6' strokeWidth='2' />
+                <text x='48' y='198' fontSize='13' fontWeight='bold' fill='#2E7CF6'>第二棒 · 中转渠道</text>
+                <text x='48' y='228' fontSize='19' fontWeight='bold' fill='#0B2545'>初稿撰写</text>
+                <text x='48' y='252' fontSize='13' fill='#64748B'>严格遵循大纲 · 内容充实 · 符合文体篇幅</text>
+                <line x1='220' y1='268' x2='220' y2='292' stroke='#2E7CF6' strokeWidth='2.5' />
+                <polygon points='214,290 226,290 220,300' fill='#2E7CF6' />
+                <rect x='20' y='304' width='400' height='104' rx='12' fill='rgba(0,201,167,0.10)' stroke='#00C9A7' strokeWidth='3' />
+                <text x='48' y='338' fontSize='13' fontWeight='bold' fill='#00A88C'>第三棒 · 官方渠道 + 裁决校验</text>
+                <text x='48' y='368' fontSize='19' fontWeight='bold' fill='#0B2545'>定稿审核</text>
+                <text x='48' y='392' fontSize='13' fill='#0B7A68'>校验结构 · 优化表达 · 统一风格 · 控制篇幅</text>
+                <line x1='420' y1='356' x2='452' y2='356' stroke='#64748B' strokeWidth='2' strokeDasharray='5 4' />
+                <polygon points='450,350 462,356 450,362' fill='#64748B' />
+                <rect x='458' y='304' width='172' height='104' rx='10' fill='#FFFFFF' stroke='#64748B' strokeWidth='1.5' strokeDasharray='6 4' />
+                <text x='478' y='338' fontSize='15' fontWeight='bold' fill='#0B2545'>修改迭代</text>
+                <text x='478' y='362' fontSize='12.5' fill='#64748B'>用户提交意见，直达</text>
+                <text x='478' y='382' fontSize='12.5' fill='#64748B'>定稿 AI 重写全篇</text>
+                <text x='20' y='446' fontSize='14' fill='#64748B'>全链路串行生成 · 中间结果临时缓存 · 会话结束即释放，不持久化存储</text>
+            </svg>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+            <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0B2545' }}>核心定位</Text>
+            <Text style={{ fontSize: 16, color: '#14202E', lineHeight: 1.7 }}>
+                输入创作需求与参数，3 个固定 AI 角色分级协作，自动完成全流程创作；页面分阶段展示产出，隐藏底层调度逻辑。
+            </Text>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <FAIcon name='sliders-h' style={{ fill: '#2E7CF6', width: 24, height: 24 }} />
+                <Text style={{ fontSize: 15.5, color: '#14202E', lineHeight: 1.5 }}>参数选择器：文体 / 风格 / 篇幅自由组合</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <FAIcon name='layer-group' style={{ fill: '#2E7CF6', width: 24, height: 24 }} />
+                <Text style={{ fontSize: 15.5, color: '#14202E', lineHeight: 1.5 }}>分阶段预览：大纲 / 初稿 / 定稿切换查看</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <FAIcon name='file-export' style={{ fill: '#00A88C', width: 24, height: 24 }} />
+                <Text style={{ fontSize: 15.5, color: '#14202E', lineHeight: 1.5 }}>一键复制、导出文本文件</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36, marginTop: 12 }}>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>11 / 14</Text>
+    </Box>
+</Slide>

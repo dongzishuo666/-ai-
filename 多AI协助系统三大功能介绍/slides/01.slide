@@ -1,0 +1,16 @@
+<Slide style={{ width: 1280, height: 720, background: '#0B2545', position: 'relative' }}>
+    <Image src='assets/cover_ai_network.png' style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, objectFit: 'cover' }} />
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, background: 'linear-gradient(90deg, rgba(11,37,69,0.92) 0%, rgba(11,37,69,0.70) 48%, rgba(11,37,69,0.30) 100%)' }} />
+    <Box style={{ position: 'relative', width: 1280, height: 720, flexDirection: 'column', justifyContent: 'center', paddingLeft: 84 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, marginBottom: 30 }}>
+            <Box style={{ width: 44, height: 4, background: '#00C9A7' }} />
+            <Text style={{ fontSize: 20, color: '#00C9A7', letterSpacing: 4 }}>项目设计总方案 · 2026-09</Text>
+        </Box>
+        <Text style={{ fontSize: 68, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.15 }}>多AI协助系统</Text>
+        <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#FFFFFF', opacity: 0.92, marginTop: 10, marginBottom: 34 }}>三大功能设计总方案</Text>
+        <Text style={{ fontSize: 21, color: 'rgba(255,255,255,0.88)', lineHeight: 1.75 }}>
+            一套架构 · 三张页面 · 八个模型<br />
+            用多模型协作，把 AI 输出从「看运气」变成「走程序」
+        </Text>
+    </Box>
+</Slide>

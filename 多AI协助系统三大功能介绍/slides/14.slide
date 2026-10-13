@@ -1,0 +1,21 @@
+<Slide style={{ width: 1280, height: 720, background: 'linear-gradient(135deg, #0B2545 0%, #123C6E 100%)', padding: '20px 84px' }}>
+    <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 22 }}>
+            <Text style={{ fontSize: 130, fontWeight: 'bold', color: '#00C9A7', lineHeight: 1 }}>5</Text>
+            <Text style={{ fontSize: 52, fontWeight: 'bold', color: '#FFFFFF', paddingBottom: 10 }}>条统一约束</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 14, marginTop: 34 }}>
+            <Box style={{ border: '1.5px solid rgba(255,255,255,0.35)', borderRadius: 999, padding: '10px 26px' }}><Text style={{ fontSize: 16, color: '#FFFFFF' }}>架构统一</Text></Box>
+            <Box style={{ border: '1.5px solid rgba(255,255,255,0.35)', borderRadius: 999, padding: '10px 26px' }}><Text style={{ fontSize: 16, color: '#FFFFFF' }}>接口统一</Text></Box>
+            <Box style={{ border: '1.5px solid rgba(255,255,255,0.35)', borderRadius: 999, padding: '10px 26px' }}><Text style={{ fontSize: 16, color: '#FFFFFF' }}>性能统一</Text></Box>
+            <Box style={{ border: '1.5px solid rgba(255,255,255,0.35)', borderRadius: 999, padding: '10px 26px' }}><Text style={{ fontSize: 16, color: '#FFFFFF' }}>体验统一</Text></Box>
+            <Box style={{ border: '1.5px solid #00C9A7', background: 'rgba(0,201,167,0.12)', borderRadius: 999, padding: '10px 26px' }}><Text style={{ fontSize: 16, color: '#00C9A7' }}>可扩展</Text></Box>
+        </Box>
+        <Text style={{ fontSize: 27, fontWeight: 'bold', color: '#FFFFFF', marginTop: 46 }}>一套系统，而不是三个项目。</Text>
+        <Text style={{ fontSize: 16, color: 'rgba(255,255,255,0.65)', marginTop: 14, lineHeight: 1.7 }}>共用调度中心与渠道管理 · 预留模型扩展与模式自定义接口 · 支持后续迭代升级</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36 }}>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)' }}>14 / 14</Text>
+    </Box>
+</Slide>

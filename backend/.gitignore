@@ -1,0 +1,51 @@
+# ============================================================
+# 多AI协同工作平台 · Git 忽略规则
+# ============================================================
+
+# ---------- 环境与密钥 ----------
+.env
+.env.*
+!.env.example
+
+# ---------- 数据与日志 ----------
+data/
+logs/
+*.db
+*.db-shm
+*.db-wal
+
+# ---------- 上传文件 ----------
+uploads/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 测试 ----------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+
+# ---------- 前端（如与后端同仓） ----------
+frontend/node_modules/
+frontend/dist/

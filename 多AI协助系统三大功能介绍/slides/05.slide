@@ -1,0 +1,75 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '20px 64px' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 100 }}>
+        <Box style={{ width: 4, height: 40, background: '#0B2545' }} />
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0B2545' }}>全局 AI 资源与通用底层能力</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 28, height: 520, marginTop: 12 }}>
+        <Box style={{ width: 320, height: 520, borderRadius: 16, background: 'linear-gradient(135deg, #0B2545 0%, #123C6E 100%)', padding: 36, flexDirection: 'column', justifyContent: 'center' }}>
+            <Text style={{ fontSize: 110, fontWeight: 'bold', color: '#00C9A7', lineHeight: 1 }}>8</Text>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', marginTop: 14 }}>个固定可调用模型</Text>
+            <Text style={{ fontSize: 16, color: 'rgba(255,255,255,0.75)', marginTop: 14, lineHeight: 1.7 }}>中转 + 官方双渠道统一管理，三大功能按需调用</Text>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 16 }}>
+            <Box style={{ height: 96, borderRadius: 12, background: '#F4F7FB', padding: '0 24', flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Box style={{ background: '#2E7CF6', borderRadius: 6, padding: '8px 16px' }}>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>中转 API 渠道</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 12 }}>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #2E7CF6', borderRadius: 999, padding: '9px 22px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>Gemini</Text></Box>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #2E7CF6', borderRadius: 999, padding: '9px 22px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>OpenAI</Text></Box>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #2E7CF6', borderRadius: 999, padding: '9px 22px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>Claude</Text></Box>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #2E7CF6', borderRadius: 999, padding: '9px 22px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>Grok</Text></Box>
+                </Box>
+            </Box>
+            <Box style={{ height: 96, borderRadius: 12, background: '#F4F7FB', padding: '0 24', flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Box style={{ background: '#0B2545', borderRadius: 6, padding: '8px 16px' }}>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>官方 API 渠道</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 12 }}>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #0B2545', borderRadius: 999, padding: '9px 18px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>DeepSeek</Text></Box>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #0B2545', borderRadius: 999, padding: '9px 18px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>智谱大模型</Text></Box>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #0B2545', borderRadius: 999, padding: '9px 18px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>文心一言</Text></Box>
+                    <Box style={{ background: '#FFFFFF', border: '1.5px solid #0B2545', borderRadius: 999, padding: '9px 18px' }}><Text style={{ fontSize: 16, color: '#0B2545' }}>Kimi</Text></Box>
+                </Box>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 12 }}>
+                <Box style={{ flexDirection: 'row', gap: 12, flex: 1 }}>
+                    <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 10, padding: '14px 20px', flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                        <FAIcon name='cog' style={{ fill: '#2E7CF6', width: 26, height: 26 }} />
+                        <Box style={{ flexDirection: 'column', gap: 4 }}>
+                            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0B2545' }}>统一 AI 调度中心</Text>
+                            <Text style={{ fontSize: 13, color: '#64748B' }}>模型调用 · 配额管理 · 异常重试 · 降级兜底</Text>
+                        </Box>
+                    </Box>
+                    <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 10, padding: '14px 20px', flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                        <FAIcon name='database' style={{ fill: '#2E7CF6', width: 26, height: 26 }} />
+                        <Box style={{ flexDirection: 'column', gap: 4 }}>
+                            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0B2545' }}>统一数据处理层</Text>
+                            <Text style={{ fontSize: 13, color: '#64748B' }}>文本解析 · 上下文挂载 · 临时缓存 · 结果输出</Text>
+                        </Box>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 12, flex: 1 }}>
+                    <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 10, padding: '14px 20px', flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                        <FAIcon name='plug' style={{ fill: '#2E7CF6', width: 26, height: 26 }} />
+                        <Box style={{ flexDirection: 'column', gap: 4 }}>
+                            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0B2545' }}>统一接口规范</Text>
+                            <Text style={{ fontSize: 13, color: '#64748B' }}>前后端数据格式与状态码同一定义</Text>
+                        </Box>
+                    </Box>
+                    <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 10, padding: '14px 20px', flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                        <FAIcon name='server' style={{ fill: '#00C9A7', width: 26, height: 26 }} />
+                        <Box style={{ flexDirection: 'column', gap: 4 }}>
+                            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0B2545' }}>轻量化底座</Text>
+                            <Text style={{ fontSize: 13, color: '#64748B' }}>适配 2GB 云服务器，控制并发与内存峰值</Text>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36, marginTop: 12 }}>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>05 / 14</Text>
+    </Box>
+</Slide>

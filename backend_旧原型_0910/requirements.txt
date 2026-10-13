@@ -1,0 +1,7 @@
+# 轻量依赖，适配 2GB 内存服务器（纯 Python 优先，避免编译型依赖）
+fastapi>=0.115.0
+uvicorn>=0.34.0
+httpx>=0.28.0
+python-multipart>=0.0.20
+pypdf>=5.1.0
+python-docx>=1.1.2

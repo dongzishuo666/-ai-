@@ -1,0 +1,15 @@
+<Slide style={{ width: 1280, height: 720, background: 'linear-gradient(135deg, #0B2545 0%, #123C6E 100%)', padding: '20px 84px' }}>
+    <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center' }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 24 }}>
+            <Text style={{ fontSize: 100, fontWeight: 'bold', color: '#00C9A7', lineHeight: 1 }}>02</Text>
+            <Text style={{ fontSize: 64, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.1, paddingBottom: 8 }}>三大功能模块</Text>
+        </Box>
+        <Text style={{ fontSize: 20, color: 'rgba(255,255,255,0.78)', marginTop: 28, lineHeight: 1.7 }}>
+            同一底座上长出三张页面——两个黑盒工具页，一个全程可视化核心页
+        </Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36 }}>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)' }}>06 / 14</Text>
+    </Box>
+</Slide>

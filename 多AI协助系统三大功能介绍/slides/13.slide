@@ -1,0 +1,15 @@
+<Slide style={{ width: 1280, height: 720, background: 'linear-gradient(135deg, #0B2545 0%, #123C6E 100%)', padding: '20px 84px' }}>
+    <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center' }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 24 }}>
+            <Text style={{ fontSize: 100, fontWeight: 'bold', color: '#00C9A7', lineHeight: 1 }}>03</Text>
+            <Text style={{ fontSize: 64, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.1, paddingBottom: 8 }}>落地约束</Text>
+        </Box>
+        <Text style={{ fontSize: 20, color: 'rgba(255,255,255,0.78)', marginTop: 28, lineHeight: 1.7 }}>
+            五条统一约束，决定这套系统能不能长期维护
+        </Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36 }}>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)' }}>13 / 14</Text>
+    </Box>
+</Slide>

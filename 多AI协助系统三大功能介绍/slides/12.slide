@@ -1,0 +1,57 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '20px 64px' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 100 }}>
+        <Box style={{ width: 4, height: 40, background: '#0B2545' }} />
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0B2545' }}>三张页面：一致底座，差异化可见性</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 20, height: 448, marginTop: 12 }}>
+        <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 14, padding: 26, flexDirection: 'column' }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <Box style={{ background: '#F4F7FB', borderRadius: 8, padding: '6px 14px' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#2E7CF6' }}>页面一</Text>
+                </Box>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0B2545' }}>文档智能 Prompt 生成</Text>
+            </Box>
+            <Text style={{ fontSize: 15, color: '#14202E', lineHeight: 1.7, marginTop: 16 }}>
+                黑盒工具页：用户上传文档并描述需求，系统在后台完成解析、生成、优化、审定四步串行链路，页面只呈现最终可用的 Prompt 与生成状态，支持历史记录轻量查看。AI 列表、调用过程与中间版本全部隐藏——用户要的是结果，不是过程。
+            </Text>
+            <Box style={{ marginTop: 'auto', background: '#F4F7FB', borderRadius: 8, padding: '10px 14px' }}>
+                <Text style={{ fontSize: 14, color: '#0B2545', fontWeight: 'bold' }}>只给结果 · 一键复制</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, background: '#FFFFFF', border: '2px solid #00C9A7', borderRadius: 14, padding: 26, flexDirection: 'column' }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <Box style={{ background: 'rgba(0,201,167,0.14)', borderRadius: 8, padding: '6px 14px' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#00A88C' }}>页面二 · 核心</Text>
+                </Box>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0B2545' }}>多 AI 自动讨论</Text>
+            </Box>
+            <Text style={{ fontSize: 15, color: '#14202E', lineHeight: 1.7, marginTop: 16 }}>
+                全程可视化核心页：参与 AI 身份、每一条发言、分数变化与禁言状态全部实时展示；支持模式注入、暂停继续、提前终止，并可导出讨论记录与评估报告。可见性最高——因为它承载的正是「多模型如何协作」这件事本身。
+            </Text>
+            <Box style={{ marginTop: 'auto', background: 'rgba(0,201,167,0.10)', borderRadius: 8, padding: '10px 14px' }}>
+                <Text style={{ fontSize: 14, color: '#0B7A68', fontWeight: 'bold' }}>全程开放 · 实时排名</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 14, padding: 26, flexDirection: 'column' }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <Box style={{ background: '#F4F7FB', borderRadius: 8, padding: '6px 14px' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#2E7CF6' }}>页面三</Text>
+                </Box>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0B2545' }}>AI 三级文章生成</Text>
+            </Box>
+            <Text style={{ fontSize: 15, color: '#14202E', lineHeight: 1.7, marginTop: 16 }}>
+                分阶段工具页：大纲、初稿、定稿三个阶段产物依次呈现、可切换查看；用户提交修改意见后直达定稿环节重写，不必重跑全链路。底层调用细节同样隐藏，保持工具页应有的克制——阶段感清晰，但幕布不掀开。
+            </Text>
+            <Box style={{ marginTop: 'auto', background: '#F4F7FB', borderRadius: 8, padding: '10px 14px' }}>
+                <Text style={{ fontSize: 14, color: '#0B2545', fontWeight: 'bold' }}>分阶段展示 · 直达修改</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ height: 56, borderRadius: 10, background: '#F4F7FB', marginTop: 16, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0B2545' }}>三个功能共用同一底座：一键切换 · 数据隔离 · 状态互不干扰</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36, marginTop: 8 }}>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>12 / 14</Text>
+    </Box>
+</Slide>

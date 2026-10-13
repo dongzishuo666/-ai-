@@ -1,0 +1,61 @@
+# ============================================================
+# 多AI协同工作平台 · 根目录忽略规则
+# backend/ 下另有一份 backend/.gitignore，两份并存互不冲突
+# ============================================================
+
+# ---------- 环境与密钥（绝不入库）----------
+.env
+.env.*
+!.env.example
+!.env.development
+!.env.production
+*.key
+*.pem
+*.p12
+
+# ---------- 依赖与构建产物 ----------
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---------- 数据与日志（含用户上传与 SQLite）----------
+data/
+logs/
+uploads/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# ---------- 编辑器 / 系统 ----------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ---------- 工具会话数据（不入库，但不要删）----------
+.codebuddy/
+.workbuddy/
+.slidep/
+
+# ---------- 代码生成脚手架（一次性工具，源码已在 backend/ frontend/）----------
+_tools/
+
+# ---------- 根目录杂项：临时脚本、打包物、代码导出快照 ----------
+_*.py
+_*.sh
+_*.txt
+_*.jsonl
+*.tar.gz
+status.html
+nul*
+前端所有代码.txt
+后端所有代码.txt
+终极版施工图.txt

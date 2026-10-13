@@ -1,0 +1,54 @@
+# ============================================================
+# 文件：deploy/multi-ai.service
+# 部署位置：/etc/systemd/system/multi-ai.service
+# 说明：后端服务守护。开机自启 + 崩溃重启 + 内存限制。
+# 依据：补充裁定（一）→ 单 worker + 内存上限
+# ============================================================
+
+[Unit]
+Description=Multi-AI Collaboration Platform (Backend)
+Documentation=https://example.com/multi-ai
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=exec
+
+# ---------- 用户与目录 ----------
+User=www-data
+Group=www-data
+WorkingDirectory=/server/backend
+
+# ---------- 环境 ----------
+Environment="PATH=/server/backend/venv/bin:/usr/local/bin:/usr/bin:/bin"
+Environment="PYTHONUNBUFFERED=1"
+Environment="PYTHONDONTWRITEBYTECODE=1"
+# .env 由应用读取（app/config/settings.py），无需此处注入
+
+# ---------- 启动命令 ----------
+ExecStart=/server/backend/venv/bin/gunicorn app.main:app -c gunicorn.conf.py
+
+# ---------- 重启策略 ----------
+Restart=always
+RestartSec=3
+KillSignal=SIGTERM
+KillMode=mixed
+
+# ---------- 内存限制（2GB 服务器，留出余量给 Nginx / 系统）----------
+MemoryHigh=1000M
+MemoryMax=1200M
+TasksMax=256
+
+# ---------- 日志 ----------
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=multi-ai
+
+# ---------- 安全加固（可选，若影响运行可注释）----------
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

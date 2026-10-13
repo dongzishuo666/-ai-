@@ -1,0 +1,56 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '20px 64px' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 100 }}>
+        <Box style={{ width: 4, height: 40, background: '#0B2545' }} />
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0B2545' }}>三类裁判分工机制</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 28, height: 520, marginTop: 12 }}>
+        <Box style={{ width: 300, height: 520, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0B2545', lineHeight: 1.4 }}>三条裁判线并行，互不阻塞</Text>
+            <Text style={{ fontSize: 16, color: '#14202E', lineHeight: 1.75 }}>
+                一条管「说没说错」，一条管「谁来说、能不能说」，一条管「结论与排名」。
+            </Text>
+            <Text style={{ fontSize: 16, color: '#14202E', lineHeight: 1.75 }}>
+                裁判逻辑异步执行，不拖慢主讨论的发言节奏。
+            </Text>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 14 }}>
+            <Box style={{ flex: 1, borderRadius: 12, background: '#F4F7FB', padding: '20px 26px', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                    <FAIcon name='eye' style={{ fill: '#2E7CF6', width: 28, height: 28 }} />
+                    <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0B2545' }}>实时监督裁判</Text>
+                    <Box style={{ background: 'rgba(46,124,246,0.10)', borderRadius: 999, padding: '5px 14px', marginLeft: 8 }}>
+                        <Text style={{ fontSize: 13, color: '#2E7CF6' }}>每条发言生成后实时执行</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 15, color: '#14202E', lineHeight: 1.6 }}>发言异常检测 · 违规判定 · 触发纠错流程</Text>
+                <Text style={{ fontSize: 13.5, color: '#64748B' }}>输出 → JSON 格式：异常判定 + 简短理由</Text>
+            </Box>
+            <Box style={{ flex: 1, borderRadius: 12, background: '#F4F7FB', padding: '20px 26px', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                    <FAIcon name='gavel' style={{ fill: '#2E7CF6', width: 28, height: 28 }} />
+                    <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0B2545' }}>秩序裁判</Text>
+                    <Box style={{ background: 'rgba(46,124,246,0.10)', borderRadius: 999, padding: '5px 14px', marginLeft: 8 }}>
+                        <Text style={{ fontSize: 13, color: '#2E7CF6' }}>全流程持续运行</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 15, color: '#14202E', lineHeight: 1.6 }}>发言顺序管控 · 弹劾流程执行 · 禁言状态管理 · 计分榜更新</Text>
+                <Text style={{ fontSize: 13.5, color: '#64748B' }}>输出 → 结构化状态数据，实时同步前端展示</Text>
+            </Box>
+            <Box style={{ flex: 1, borderRadius: 12, background: 'rgba(0,201,167,0.10)', border: '2px solid #00C9A7', padding: '20px 26px', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                    <FAIcon name='award' style={{ fill: '#00A88C', width: 28, height: 28 }} />
+                    <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0B2545' }}>最终评价裁判</Text>
+                    <Box style={{ background: 'rgba(0,201,167,0.18)', borderRadius: 999, padding: '5px 14px', marginLeft: 8 }}>
+                        <Text style={{ fontSize: 13, color: '#00A88C' }}>讨论尾段及结束时执行</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 15, color: '#14202E', lineHeight: 1.6 }}>共识判定 · 贡献度排名 · 质量评估 · 最终总结</Text>
+                <Text style={{ fontSize: 13.5, color: '#0B7A68' }}>输出 → Markdown 报告：评分、排名、结论、建议</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: 36, marginTop: 12 }}>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>多AI协助系统 · 三大功能设计总方案</Text>
+        <Text style={{ fontSize: 14, color: '#64748B' }}>09 / 14</Text>
+    </Box>
+</Slide>
